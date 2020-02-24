@@ -1,0 +1,75 @@
+
+/* giving proportions to container */
+.container {
+    width: 901px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.header a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header a:hover,
+.header a:focus {
+    color:lightblue;
+    font-size: 18px;
+}
+
+.articles {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+/* canceling all default proportions */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.articles_list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+.articles_item {
+    display: flex;
+    flex-flow: column;
+    width: 420px;
+}
+
+.articles_item span {
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: grey;
+
+}
+
+.articles_item h2 {
+    font-size: 30px;
+    font-family:"Playfire Display";
+}
+
+button {
+    display: block;
+    margin: 100px auto;
+    background-color: lightblue;
+    height: 60px;
+    width: 160px;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 20px;
+}
